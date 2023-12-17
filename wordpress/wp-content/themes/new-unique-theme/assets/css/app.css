@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+
+html{
+    background-color: #0E5340;
+}
+
+/******* header  ********/
+
+header{
+    font-family: 'Alfa Slab One',serif;
+    color: aliceblue;
+    font-size: 30.9px;
+    font-weight: 400;
+    background-color: #24DBA8;
+    width: auto;
+    height: 90px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    padding-left: 40px;
+}
+
+#truc-head{
+    padding-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.menuli{
+    display: inline;
+}
+
+#listmenuol{
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+}
+
+#listmenu {
+
+    padding-right: 40px;
+    list-style: none;
+    align-items: center;
+    
+}
+
+
+
+/******** body ***********/
+
+h1{
+    text-align: center;
+    color: white;
+    font-family:'Alfa Slab One',serif;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+h2{
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Alfa Slab One',serif;
+    font-size: 30.9;
+    font-weight: 400;
+}
+
+.yellowtexte{
+    font-family: Alfa Slab One;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    color: aliceblue;
+}
+
+.yellowlink {
+    color: yellow;
+    text-decoration: none;
+}
+
+#logo-fond{
+    position: absolute;
+    left: 0px;
+    top: 140px;
+    z-index: -1;
+
+}
+
+
+/********* cards **********/
+
+
+
+
+
+
+/****** questions ********/
+  
+  .container {
+    margin: 0 auto;
+    padding: 4rem;
+    width: 48rem;
+  }
+  
+  .accordion .accordion-item {
+    border-bottom: 1px solid #e5e5e5;
+  }
+  
+  .accordion .accordion-item button[aria-expanded='true'] {
+    border-bottom: 1px solid #FCC926;
+  }
+  
+  .accordion button {
+    position: relative;
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding: 1em 0;
+    color: white;
+    font-size: 1.15rem;
+    font-weight: 400;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  
+  .accordion button:hover,
+  .accordion button:focus {
+    cursor: pointer;
+    color: #FCC926;
+  }
+  
+  .accordion button:hover::after,
+  .accordion button:focus::after {
+    cursor: pointer;
+    color: #FCC926;
+    border: 1px solid #FCC926;
+  }
+  
+  .accordion button .accordion-title {
+    padding: 1em 1.5em 1em 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30.9px;
+    font-weight: 700;
+  }
+  
+  .accordion button .icon {
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    right: 0;
+    width: 22px;
+    height: 22px;
+    border: 1px solid;
+    border-radius: 22px;
+  }
+  
+  .accordion button .icon::before {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 9px;
+    left: 5px;
+    width: 10px;
+    height: 2px;
+    background: currentColor;
+  }
+  .accordion button .icon::after {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 5px;
+    left: 9px;
+    width: 2px;
+    height: 10px;
+    background: currentColor;
+  }
+  
+  .accordion button[aria-expanded='true'] {
+    color: #FCC926;
+  }
+  .accordion button[aria-expanded='true'] .icon::after {
+    width: 0;
+  }
+  .accordion button[aria-expanded='true'] + .accordion-content {
+    opacity: 1;
+    max-height: 9em;
+    transition: all 200ms linear;
+    will-change: opacity, max-height;
+  }
+  .accordion .accordion-content {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 200ms linear, max-height 200ms linear;
+    will-change: opacity, max-height;
+  }
+  .accordion .accordion-content p {
+    color: #FFF;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 19.1px;
+    font-weight: 500;
+    font-style: normal;
+    
+  }  
+
+
+/****** questions ********/
+
+
+
+
+
+/*********  Footer  ********/
+
+footer{
+    background-color: aliceblue;
+    height: 60px;
+    width: auto;
+    line-height: 60px;
+    padding-right: 60px;
+    text-align: right;
+    padding-bottom: 0%;
+}
+
+#footerlink{
+
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 19.10px;
+    font-family: Alfa Slab One;
+    font-weight: 400;
+}
+
+#footerlogo{
+
+    position:relative;
+    left: 40px;
+    bottom: 118px;
+    height: 106.515px;
+    width: 138px;
+}
+
+/********* end Footer  ********/
+
