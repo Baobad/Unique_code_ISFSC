@@ -2,7 +2,9 @@
 
 <!------- titre ------->
 
-<h1>C'est comme<br/> un airbnb<br/> du parasport</h1>
+<div class="gros_titres">
+  <h1>C'est comme<br/> un airbnb<br/> du parasport</h1>
+</div>
 
 
 
