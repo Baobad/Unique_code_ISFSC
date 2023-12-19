@@ -6,6 +6,10 @@
   <h1>C'est comme<br/> un airbnb<br/> du parasport</h1>
 </div>
 
+<?php
+    // Exemple de création de lien vers un autre fichier PHP
+    echo "<a href='legale.php'>Aller à AutrePage.php</a>";
+?>
 
 
 <svg id="logo-fond" xmlns="http://www.w3.org/2000/svg" width="712" height="866" viewBox="0 0 712 866" fill="none">
@@ -16,7 +20,27 @@
 
 <!------- cards -------->
 
+<div id="double-card">
 
+  <div class="card">
+    <img src="/Unique_code_ISFSC/wordpress/wp-content/uploads/2023/12/image-2.jpg" alt="image sportif" style="width: 100%;" > 
+    <div class="contenue-card">
+      <h2 class="h2-noir">Passe au niveau supérieur</h2>
+      <p>Dû au faible nombre de salles capables d’accueillir des personnes à mobilité réduites, il peut s’avérer difficile de s’entrainer et se perfectionner. mais maintenant plus d’excuse</p>
+      <div class="cta"><a href="#">S'INSCRIRE</a></div>  
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="/Unique_code_ISFSC/wordpress/wp-content/uploads/2023/12/image-2.jpg" alt="image sportif" style="width: 100%;" > 
+    <div class="contenue-card">
+      <h2 class="h2-noir">Passe au niveau supérieur</h2>
+      <p>Dû au faible nombre de salles capables d’accueillir des personnes à mobilité réduites, il peut s’avérer difficile de s’entrainer et se perfectionner. mais maintenant plus d’excuse</p>
+      <div class="cta"><a href="#">S'INSCRIRE</a></div> 
+    </div>
+  </div>
+
+</div>
 
 
 <!------- questions -------->
