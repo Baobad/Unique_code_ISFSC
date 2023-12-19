@@ -6,10 +6,6 @@
   <h1>C'est comme<br/> un airbnb<br/> du parasport</h1>
 </div>
 
-<?php
-    // Exemple de création de lien vers un autre fichier PHP
-    echo "<a href='legale.php'>Aller à AutrePage.php</a>";
-?>
 
 
 <svg id="logo-fond" xmlns="http://www.w3.org/2000/svg" width="712" height="866" viewBox="0 0 712 866" fill="none">

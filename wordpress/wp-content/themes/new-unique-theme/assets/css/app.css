@@ -6,7 +6,7 @@ html,body {
   margin: 0px;
   bottom: 0px;
   background-color: #0E5340;
-  height: fit-content;
+
 }
 
 a{
@@ -159,11 +159,6 @@ h2{
     text-decoration: none;
 }
 
-#titre404{
-  margin-top: 10%;
-  margin-bottom: 10%;
-}
-
 #logo-fond{
     position: absolute;
     left: 0px;
@@ -175,63 +170,7 @@ h2{
 
 /********* cards **********/
 
-p{
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-}
 
-#double-card{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 120px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-
-}
-
-.card {
-  background-color: #D9D9D9;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: 32%;
-}
-
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.500);
-}
-
-.contenue-card {
-  padding: 20px;
-  margin-bottom: 10px;
-}
-
-.h2-noir{color: #000000;
-  text-align: left;
-}
-
-.cta{
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold; 
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background: #20C295;
-  width: 180px;
-  border-radius: 15px;
-  color: #FFF;  
-  font-size: 15px;
-}
-
-.cta:hover {
-  background-color: #20c2948a;
-}
-
-@media (hover:hover)
-  .cta:hover{
-    background-color:blue;
-  }
-  
 
 
 
@@ -349,6 +288,12 @@ p{
   }  
 
 
+/****** questions ********/
+
+
+
+
+
 /*********  Footer  ********/
 
 footer{
@@ -379,3 +324,6 @@ footer{
     height: 106.515px;
     width: 138px;
 }
+
+/********* end Footer  ********/
+
